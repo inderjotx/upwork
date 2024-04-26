@@ -21,7 +21,7 @@ export default function Home() {
       <div className="flex flex-col items-center w-full px-8">
         <h1 className="w-full text-center my-10">Tailwind Footer</h1>
 
-        <div className="grid grid-cols-6  border  rounded-md w-full  mb-20 gap-8 p-8 " >
+        <div className="grid grid-cols-6  border  rounded-md w-full  mb-20 gap-8 p-8 pb-2 " >
 
           <div className="lg:col-span-2 col-span-6 flex flex-col justify-center gap-4 items-start" >
 
