@@ -1,3 +1,4 @@
+import { Separator } from "@/components/ui/separator";
 import { Facebook, Github, Instagram, Twitter, Youtube } from "lucide-react"
 import Image from "next/image";
 
@@ -20,7 +21,7 @@ export default function Home() {
       <div className="flex flex-col items-center w-full px-8">
         <h1 className="w-full text-center my-10">Tailwind Footer</h1>
 
-        <div className="grid grid-cols-6  border rounded-md w-full  mb-20 gap-8 p-8 " >
+        <div className="grid grid-cols-6  border  rounded-md w-full  mb-20 gap-8 p-8 " >
 
           <div className="lg:col-span-2 col-span-6 flex flex-col justify-center gap-4 items-start" >
 
@@ -30,12 +31,12 @@ export default function Home() {
             <div className="flex flex-wrap text-sm text-muted-foreground">
               Making the world a better place through constructing elegant hierarchies.
             </div>
-            <div className="flex gap-3 text-muted-foreground " >
-              <Facebook className="hover:text-foreground" />
-              <Instagram className="hover:text-foreground" />
-              <Twitter className="hover:text-foreground" />
-              <Github className="hover:text-foreground" />
-              <Youtube className="hover:text-foreground" />
+            <div className="flex gap-4 text-muted-foreground flex-wrap " >
+              <Facebook className="hover:text-foreground w-5 h-5" />
+              <Instagram className="hover:text-foreground w-5 h-5" />
+              <Twitter className="hover:text-foreground w-5 h-5" />
+              <Github className="hover:text-foreground w-5 h-5" />
+              <Youtube className="hover:text-foreground w-5 h-5" />
             </div>
 
 
@@ -117,6 +118,13 @@ export default function Home() {
 
 
 
+          </div>
+
+
+          <div className="col-span-6 flex flex-col w-full mt-10" >
+            <Separator />
+
+            <p className="my-2 text-muted-foreground text-xs " >© 2020 Your Company, Inc. All rights reserved.</p>
           </div>
 
 
