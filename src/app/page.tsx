@@ -142,7 +142,7 @@ export default function Home() {
 
 
 
-      <div className="flex flex-col items-center w-full md:px-36 px-4 mb-10 rounded-md">
+      <div className="flex flex-col items-center w-full lg:px-36 px-4 mb-10 rounded-md">
         <h1 className="w-full text-center my-10 text-black">Habbit Garden</h1>
 
 
